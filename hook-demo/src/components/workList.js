@@ -1,5 +1,5 @@
-function CreateTodoList(List){
-    List.map((item)=>{
+function CreateTodoList(list){
+    list.map((item)=>{
         return (
             <p>{item}</p>
         )
